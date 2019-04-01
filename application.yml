@@ -6,7 +6,6 @@ spring:
 ---
 spring:
   profles: dev #开发环境
-    active:
   application:
     name: microservicecloud-config-mingqian-dev
 
@@ -15,6 +14,5 @@ spring:
 
 spring:
   profles: test #测试环境
-    active:
   application:
     name: microservicecloud-config-mingqian-test
