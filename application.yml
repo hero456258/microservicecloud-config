@@ -1,0 +1,18 @@
+spring:
+  profles:
+    active:
+     -dev
+
+---
+spring:
+  profles: dev #开发环境
+  application:
+    name: microservicecloud-config-mingqian-dev
+  
+---
+spring:
+  profles: test #测试环境
+  application:
+    name: microservicecloud-config-mingqian-test
+
+#请保存为UTF-8格式
